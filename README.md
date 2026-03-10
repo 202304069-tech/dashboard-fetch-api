@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dashboard de Usuarios con Fetch API
 
 ## Descripción
@@ -45,3 +46,7 @@ Endpoints utilizados:
 NOTA
 Este proyecto funciona correctamente utilizando Live Server, ya que los módulos de JavaScript (import/export) requieren ejecutarse desde un servidor local.
 Pero, también es posible ejecutar el proyecto utilizando otros métodos, por ejemplo mediante un servidor local con Flask, Node.js u otras herramientas similares que permitan servir archivos estáticos.
+=======
+# dashboard-fetch-api
+Dashboard de usuarios utilizando Fetch API
+>>>>>>> 6c3773c2d9f57d37ac99072913a0831eb8923961
