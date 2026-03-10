@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard de Usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Dashboard de Usuarios</h1>
+        <div id="estado"></div>
+    </header>
+
+    <main>
+
+        <section id="controles">
+
+            <input type="search" id="busqueda" placeholder="Buscar usuario...">
+
+            <button id="btnCargar">
+                Cargar Usuarios
+            </button>
+
+            <button id="btnLimpiar">
+                Limpiar
+            </button>
+
+        </section>
+
+        <div id="spinner" hidden>
+            <p>⏳ Cargando datos...</p>
+        </div>
+
+        <section id="contenedor-usuarios">
+
+        </section>
+
+    </main>
+
+    <script type="module" src="dashboard.js"></script>
+
+</body>
+
+</html>
